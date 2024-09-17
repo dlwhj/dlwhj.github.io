@@ -15,22 +15,44 @@
             <time datetime="2024-09-17">2024년 09월 17일</time>
             <h2>Basic Munitions Training / 탄약초도교육</h2>
             <p>
-                This is a simple quiz applet programmed in JavaScript.
+                자바스크립트/JavaScript로 간단한 퀴즈 프로그램을 구현했다.
+                오는 목요일에 있는 탄약초도교육 시험을 준비하는 도구다.
+                시험이 단순한 암기 시험이므로 조심스레 100점 만점의 100점을 기대해본다.
             </p>
-            <p>
-                M39 GUN에 사용되는 20MM 탄약의 Link Type은?
-            </p> 
-            <ol>
-                <li>M14</li>
-                <li>M12</li>
-                <li>M11</li>
-                <li>M10</li>
-            </ol> 
-            <input id="input" type="text" placeholder="1">
+            <form id="quiz">
+                <input id="quiz-next" type="button" name="quiz-next" value="NEXT">
+                <input id="quiz-prev" type="button" name="quiz-prev" value="PREV">
+                <p id="quiz-prompt">
+                    PROMPT: M39 GUN에 사용되는 20MM 탄약의 Link Type은?
+                </p> 
+                <ol id="quiz-options">
+                    <li>M14</li>
+                    <li>M12</li>
+                    <li>M11</li>
+                    <li>M10</li>
+                </ol> 
+                <label for="quiz-input">INPUT: </label>
+                <input id="quiz-input" type="text" name="quiz-input" placeholder="0">
+                <label for="quiz-output">OUTPUT: </label>
+                <output id="quiz-output" name="quiz-output" for="quiz-input"></output>
+            </form>
         </main>
         <footer>
             <p>Copyright © 2024 Dlwhddnr.</p>
             <p>The typeface is <a href="https://campaign.naver.com/nanumsquare_neo">Nanum Square Neo</a>.</p>
         </footer>
-        <script></script>
+        <script>
+            const quizEl = document.querySelector("#quiz");
+            const quizInputEl = document.querySelector("#quiz-input");
+            const quizOutputEl = document.querySelector("#quiz-output");
+
+            function updateOutput() {
+                const answer = 2;
+                const input = quizInputEl.value;
+                quizOutputEl.value = (input == answer) ? "Correct" : "Incorrect";
+            }
+
+            quizEl.addEventListener("input", updateOutput);
+            updateOutput();
+        </script>
 </html>
