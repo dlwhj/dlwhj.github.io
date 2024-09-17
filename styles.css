@@ -14,3 +14,8 @@ html {
     color: var(--color-text);
     font: 500 100%/1.25 var(--fontfamily-sans);
 }
+
+.container {
+    margin: auto;
+    width: min(100vw - 2rem, 60rem);
+}
