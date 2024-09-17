@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Nanum Square Neo";
-    src: url("./assets/fonts/nanum_square_neo_variable.woff2") format("woff2");
+    src: url("/assets/fonts/nanum_square_neo_variable.woff2") format("woff2");
 }
 
 :root {
-    --color-background: #000000;
+    --color-background: #ffffff;
     --color-text: #000000;
     --fontfamily-sans: "Nanum Square Neo", sans-serif;
 }
