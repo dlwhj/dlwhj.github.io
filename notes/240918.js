@@ -798,6 +798,206 @@ const problems = [
         prompt: "Captive Air Training Missile의 색채 표기는 다음 중 어떤 것인가?",
         options: ["적색", "청색", "황색", "녹색"],
         answer: 2,
+    },
+    {
+        prompt: "AGM-65 기능점검시 LAUNCHER와 전기적으로 연결시켜 주는 구성품은 무엇인가?",
+        options: [],
+        answer: "CP1",
+    },
+    {
+        prompt: "AIM-9P MSL GCS의 점검장비는?",
+        options: [],
+        answer: "AN/ASM-447",
+    },
+    {
+        prompt: "AIM-9L/S/M/P MISSILE의 운반시 최소 적재 인원은 몇명인가?",
+        options: [],
+        answer: "3명",
+    },
+    {
+        prompt: "AIM-9L/S/M/P MISSILE 구성품중 화재기호별 위험분류 1.4등급에 해당되는 구성품은?",
+        options: [],
+        answer: "GCS",
+    },
+    {
+        prompt: "AIM-9L/S/M/P MISSILE에서 WING ASSY가 조립되는 부분은?",
+        options: [],
+        answer: "ROCKET MOTOR",
+    },
+    {
+        prompt: "GCS의 DOME을 지상에서 외부 충격으로부터 보호해주는 장착물은 무엇인가?",
+        options: [],
+        answer: "DOME COVER",
+    },
+    {
+        prompt: "AGM-65 DOME COVER 조립 및 분해시 반드시 착용해야 할 보호구는?",
+        options: [],
+        answer: "안면보호구",
+    },
+    {
+        prompt: "AIM-9L/S/M GCS, TD, R/M SQUIB 저항측정시 사용되는 장비는 무엇인가?",
+        options: [],
+        answer: "620A-4",
+    },
+    {
+        prompt: "SR116-HP-1 ROCKET MOTOR의 추인물은 무엇인가?",
+        options: [],
+        answer: "HTPB",
+    },
+    {
+        prompt: "AIM-9MSL의 추적방식은 (?) 추적방식이다.",
+        options: [],
+        answer: "적외선 (IR)",
+    },
+    {
+        prompt: "CPT의 용기 수압검사 주기는 몇년인가?",
+        options: [],
+        answer: "10년",
+    },
+    {
+        prompt: "공대지 유도탄 AGM-65를 조종사 훈련용으로 사용시 무엇이라고 하는가?",
+        options: [],
+        answer: "TGM-65",
+    },
+    {
+        prompt: "AIM-9L/S/M 구성품으로 소량의 CH-6 폭약을 포함하고 있으며, T/D와 W/H 사이에 장착되어 기폭제 역할을 하는 것은?",
+        options: [],
+        answer: "SAD",
+    },
+    {
+        prompt: "AGM-65G/G2에 장착되는 발사대는 무엇인가?",
+        options: [],
+        answer: "LAU-117",
+    },
+    {
+        prompt: "MISSILE의 맨 앞에 장착되어 적외선을 이용 목표를 추적하는 부분품은?",
+        options: [],
+        answer: "GCS(GCU)",
+    },
+    {
+        prompt: "AGM-65D/G DOME COVER ACTUATOR 분해시 WARNING 사항으로 가장 먼저 수행해야 하는 것은?",
+        options: [],
+        answer: "접지",
+    },
+    {
+        prompt: "CPT의 용기 수압검사 주기는 몇년인가?",
+        options: [],
+        answer: "10년",
+    },
+    {
+        prompt: "WING 조립시 TORQUE는 몇 단계에 걸쳐 수행하는가?",
+        options: [],
+        answer: "1단계",
+    },
+    {
+        prompt: "CAPTIVE FLIGHT ADAPTER가 장착되는 부위는 어디인가?",
+        options: [],
+        answer: "UMBILICAL CABLE",
+    },
+    {
+        prompt: "ARMING KEY가 없는 상태에서 SR116-HP-1 ROCKET MOTOR가 안전 위치에 있다면 조치사항을 기술하라.",
+        options: [],
+        answer: "3/8 INCH HEX HEAD WRENCH를 사용하여 S&A ASSY를 장전 위치로 바꿔준 다음 ARMING KEY를 장착하여 다시 안전 위치로 바꿔준다.",
+    },
+    {
+        prompt: "DSU-21/B가 폐기될 수 있는 결함 요소를 3가지 이상 기술하라.",
+        options: [],
+        answer: "HOUSING에 0.062 INCH를 초과하는 파손. WINDOW가 금이가거나 깨짐. 전기접촉단자가 파손됨. 조립이 안될 정도으 SPANNER WRENCH HOLE 손상.",
+    },
+    {
+        prompt: "MK-82 GP BOMB의 NEW는 얼마인가?",
+        options: [],
+        answer: "192 LBS",
+    },
+    {
+        prompt: "M905 Tail Fuze Arming setting time은 4, 6, 8, (), (), 20초가 있다.",
+        options: [],
+        answer: "12, 16",
+    },
+    {
+        prompt: "M904 FUZE 점검 중 결함 발견 시 () 된 것으로 간주하여 관련자에게 통보하고 결함 신관을 폐기한다.",
+        options: [],
+        answer: "장전",
+    },
+    {
+        prompt: "MK-82 GP BOMB의 NEW는 전체 중량의 약 ()% 이다.",
+        options: [],
+        answer: "36",
+    },
+    {
+        prompt: "MK-82 GP BOMB 조립절차에 관한 지술 지시는?",
+        options: [],
+        answer: "11A-1-63",
+    },
+    {
+        prompt: "M-9 DELAY의 구성성분은 무엇인가?",
+        options: [],
+        answer: "흑색화약",
+    },
+    {
+        prompt: "MK-82 GP BOMB의 위험 등급은?",
+        options: [],
+        answer: "1.1",
+    },
+    {
+        prompt: "MK-82 GP BOMB에 장착되는 LUG 간격은?",
+        options: [],
+        answer: "14 INCH를",
+    },
+    {
+        prompt: "20MM HEI의 M505 신관의 장전 원리는?",
+        options: [],
+        answer: "원심력",
+    },
+    {
+        prompt: "탄약 조립 요원이 BBU-35 IMPULSE CARTRIDGE를 취급하는 동안 지속적으로 유지하여야 할 것은 무엇인가?",
+        options: [],
+        answer: "접지",
+    },
+    {
+        prompt: "ARD446-1 CARTRIDGE의 봉인된 탄약상자는 찍힘이 몇인치 이상일때 개봉하여 검사해야 하는가?",
+        options: [],
+        answer: "3/8",
+    },
+    {
+        prompt: "M905 신관에 M9 DELAY를 장착하려 할때 필히 눌러주어야 하는 장치는 무엇인가?",
+        options: [],
+        answer: "TIMING LOCK",
+    },
+    {
+        prompt: "이글루형 탄약고의 흙 두께는 최소 몇 인치인가?",
+        options: [],
+        answer: "24인치",
+    },
+    {
+        prompt: "위험 물질 등급 중 6등급은?",
+        options: [],
+        answer: "독성 및 전염성 물질",
+    },
+    {
+        prompt: "화재 기호판의 바탕 색상과 숫자의 색채 표기는 어떻게 되는가?",
+        options: [],
+        answer: "주황색 바탕에 흑색 글씨",
+    },
+    {
+        prompt: "사용 불가능으로 결정되어 폐기대상 탄약의 상태부호는?",
+        options: [],
+        answer: "H",
+    },
+    {
+        prompt: "GP BOMB의 색채 표기 중 황색 띠가 2\"일 때 내부 충진물은?",
+        options: [],
+        answer: "COMP-B",
+    },
+    {
+        prompt: "폭발물의 저장 적합군 중 자체 시 폭 기능이 없는 흑색화약 고성능 폭약을 포함한 탄약은 어디에 속하는가?",
+        options: [],
+        answer: "D군",
+    },
+    {
+        prompt: "탄약 점검 시 M904/M905 FUZE의 점검창에서 적색을 나타내면 어떻게 해야 하나?",
+        options: [],
+        answer: "FUZE가 장전된 것으로 간주하고, EOD에 보고할 것",
     }
 ]
 
