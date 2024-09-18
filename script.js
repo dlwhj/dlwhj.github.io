@@ -18,7 +18,8 @@ const updateTimestamp = () => {
     let month = (new Date).toLocaleDateString("en-us", { timeZone: currentTimeZone, month: "long" });
 
     timestampEl.innerText = `${time} on ${weekday} the ${day}${getOrdinalSuffix(day)} of ${month}`;
+    // TODO: update datetime attribute also
 }
 
 updateTimestamp();
-setInterval(updateTimestamp, 60000); // Update every minute
+setInterval(updateTimestamp, 60000); // update view every minute
