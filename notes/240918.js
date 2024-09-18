@@ -638,6 +638,166 @@ const problems = [
         prompt: "MISSILE 발사 후 전원을 발생 공급하여 주는 기능을 가진 것은?",
         options: ["WING", "FUZE COVER", "BOOSTER", "TURBO GENERATOR"],
         answer: 4,
+    },
+    {
+        prompt: "WING & ROLLERON TENSIOMETER의 점검 허용치는 얼마인가?",
+        options: ["85 LBS", "45~65 LBS", "100 LBS", "22~28 LBS"],
+        answer: 4,
+    },
+    {
+        prompt: "다음중 Rocket Motor의 화재 등급은?",
+        options: ["1.1", "1.2", "1.3", "1.4"],
+        answer: 3,
+    },
+    {
+        prompt: "다음 중 GCS를 구성하고 있는 부품이 아닌 것은?",
+        options: ["Gas Generator", "Umbilical Cable", "Booster", "Dome"],
+        answer: 3,
+    },
+    {
+        prompt: "GCS의 Umbilical Cable Block에 Spring Pin은 몇 개가 장착되는가?",
+        options: ["1개", "2개", "4개", "8개"],
+        answer: 1,
+    },
+    {
+        prompt: "GCS의 충격으로부터 DOME파손을 방지하기위해 장착되는 안전장치는?",
+        options: ["Dome Cover", "Dust Cap", "Clip", "Flag"],
+        answer: 1,
+    },
+    {
+        prompt: "AGM-65 Unpacking 시 컨테이너 뚜껑을 열기전 가장 먼저해야할 것은?",
+        options: ["내외부 압력일치", "접지", "컨테이너 세척", "기능점검"],
+        answer: 1,
+    },
+    {
+        prompt: "AGM-65 구성품으로 목표물 감지, 추적, 유도를 담당하는 것은?",
+        options: ["GCS", "CAS", "WARHEAD", "PAS"],
+        answer: 1,
+    },
+    {
+        prompt: "AGM-65 발사대인 LAU-117 장탈착중 MRD ALIGN시 사용되는 HINGE의 SIZE는?",
+        options: ["1/4 INCH", "1/2 INCH", "3/8 INCH", "3/4 INCH"],
+        answer: 3,
+    },
+    {
+        prompt: "다음중 CATM의 180DAY 점검항목이 아닌 것은?",
+        options: ["조립부위 분해", "GCS 기능점검", "부분품 NDI", "Target Detector 저항검사"],
+        answer: 4,
+    },
+    {
+        prompt: "다음중 AIM-9P MISSILE의 접지부가 될 수 없는 곳은?",
+        options: ["전방 HANGER", "R/M의 도장안된 외피", "중앙 HANGER", "후방 HANGER"],
+        answer: 3,
+    },
+    {
+        prompt: "AIM-9P Missile에 Contact Button이 장착된 부분은 어디인가?",
+        options: ["WARHEAD", "TARGET DETECTOR", "GCS", "ROCKET MOTOR"],
+        answer: 4,
+    },
+    {
+        prompt: "AN/ASM-447 장비로 점검하는 MISSILE의 부분품은 어떤 것인가?",
+        options: ["GCS", "Warhead", "Rocket Motor", "Target Detector"],
+        answer: 1,
+    },
+    {
+        prompt: "SR116 Rocket Motor의 WING ASSY 조립 SCREW 수는 모두 몇개인가?",
+        options: ["10개", "20개", "30개", "40개"],
+        answer: 2,
+    },
+    {
+        prompt: "다음중 AIM-9P MISSILE에서 3단 TORQUE 하는 것은?",
+        options: ["WARHEAD SCREW", "WING SCREW", "CANARD SCREW", "BREAK-AWAY SCREW"],
+        answer: 1,
+    },
+    {
+        prompt: "다음중 AIM-9P에서 TORQUE치가 가장 높은 것은?",
+        options: ["WARHEAD SCREW", "GCU SURFACE SCREW", "CANARD SCREW", "BREAK-AWAY SCREW"],
+        answer: 2,
+    },
+    {
+        prompt: "AGM-65G/G2 WARHEAD에는 몇 파운드의 폭약이 충전되어 있는가?",
+        options: ["125", "150", "200", "300"],
+        answer: 4,
+    },
+    {
+        prompt: "AGM-65를 세척하기위해 사용하는 솔벤트 사용시 착용해야 하는 안전장구가 아닌 것은?",
+        options: ["보호안경", "고무장갑", "고무신", "방독마스크"],
+        answer: 3,
+    },
+    {
+        prompt: "AIM-9 MSL이 발사되어 비행하는 동안 ROLL, PITCH, YAW를 최소화 시켜주는 장치는?",
+        options: ["WING & ROLLERON", "FIN", "TARGET DETECTOR", "CANARD"],
+        answer: 1,
+    },
+    {
+        prompt: "AIM-9 미사일을 M-9 Adapter 이용 적재시 2층에 적재되는 AIM-9 수량은?",
+        options: ["4발", "5발", "6발", "2발"],
+        answer: 3,
+    },
+    {
+        prompt: "AIM-9 미사일을 M-9 Adapter 이용 적재시 Hanger를 기준으로 몇시 방향으로 적재하여야 하는가?",
+        options: ["10시", "9시", "8시", "1시"],
+        answer: 4,
+    },
+    {
+        prompt: "AIM-9L/S/M CPT 검사시 압력이 얼마 이하일경우 충전하여야 하는가?",
+        options: ["3000 PSI", "4000 PSI", "4500 PSI", "6000 PSI"],
+        answer: 2,
+    },
+    {
+        prompt: "다음중 WARHEAD의 화재등급은 어떤 것인가?",
+        options: ["1.2", "1.1", "1.4", "1.3"],
+        answer: 2,
+    },
+    {
+        prompt: "AIM-9M GCS CPT Cover Screw는 몇개로 고정되는가?",
+        options: ["1개", "2개", "3개", "4개"],
+        answer: 3,
+    },
+    {
+        prompt: "AIM-9M GCS기능점검시 장착해야하는 것에 속하지 않는 것은?",
+        options: ["TD COVER", "9 PIN", "15 PIN", "UMBILICAL CABLE"],
+        answer: 1,
+    },
+    {
+        prompt: "AIM-9M GCS에 냉각가스를 공급해주는 구성품은?",
+        options: ["FIN ADAPTER", "WING", "CPT", "TD"],
+        answer: 3,
+    },
+    {
+        prompt: "AIM-9M 완성탄 미사일의 접지 부위는?",
+        options: ["WING RIB", "GCS", "FIN", "TD"],
+        answer: 1,
+    },
+    {
+        prompt: "DSU-21/B TARGET DETECTOR의 조립 접합부 검사에 사용하는 장비는?",
+        options: ["현미경", "확대경", "GAS TESTER", "TENSIOMETER"],
+        answer: 2,
+    },
+    {
+        prompt: "AIM-9P 유도무기 정비/점검과 상관없는 장비는 다음중 어떤 것인가?",
+        options: ["620A-4", "AN/ASM-447", "FTS", "MULTIMETER"],
+        answer: 4,
+    },
+    {
+        prompt: "AIM-9M 조립시 구성품 보호 COVER가 필요한 구성품은 무엇인가?",
+        options: ["TARGET DETECTOR", "WING", "FIN", "R/M"],
+        answer: 1,
+    },
+    {
+        prompt: "다음 부분품중 1인 운반이 불가능한 것은 어떤 것인가?",
+        options: ["GCS", "ROCKET MOTOR", "WARHEAD", "TARGET DETECTOR"],
+        answer: 2,
+    },
+    {
+        prompt: "다음중 Captive Air Training Missile에서 LIVE 구성품은 무엇인가?",
+        options: ["WARHEAD", "GCS", "ROCKET MOTOR", "TARGET DETECTOR"],
+        answer: 2,
+    },
+    {
+        prompt: "Captive Air Training Missile의 색채 표기는 다음 중 어떤 것인가?",
+        options: ["적색", "청색", "황색", "녹색"],
+        answer: 2,
     }
 ]
 
