@@ -1,3 +1,14 @@
+const problems = [
+    {
+        prompt: "M39 GUN에 사용되는 20MM 탄약의 Link Type은?",
+        options: ["M14", "M12", "M11", "M10"],
+        answer: 2,
+    },
+    {
+        prompt: "MK-82 GP BOMB에 MAU-93 Conical Fin 장착 시 사용되는 Shaft Type은?",
+        options: ["MAU-86/B-5", "MAU-86/B-6", "MAU-86/B-7", "MAU-86/B-8"],
+        answer: 1,
+    },
     {
         prompt: "20MM 탄약의 구성품으로 맞지 않는 것은?",
         options: ["cartridge case", "projectile", "primer", "gun muzzle"],
