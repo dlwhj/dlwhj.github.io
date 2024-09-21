@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dlwhddnr</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js" defer></script>
+    </head>
+    <body class="page">
+        <div class="page__inner">
+            <header class="header page__header">
+                <h1 class="header__title">dlwhddnr.</h1>
+            </header>
+            <main class="content page__content">
+                <h1 class="content__title">
+                    <time class="date content__date" datetime="2024-09-21">2024년 09월 21일</time>
+                    Using Variable Fonts in CSS
+                </h1>
+                <div class="content__text-wrapper">
+                    <p class="content__text">
+                        <span class="content__keyword">Variable fonts</span>
+                        are an evolution of the OpenType font specification introduced in 2016.
+                        They combine the variants of a typeface into a single file,
+                        eliminating the need for separate files for each width, weight, or style.
+                    </p>
+                    <p class="content__text">
+                        In the context of CSS, using a variable font can condense the following:
+                    </p>
+                    <pre class="code content__code-block">
+<!--                 -->@font-face {
+<!--                 -->    font-family: "Nanum Square Neo";
+<!--                 -->    font-weight: 300;
+<!--                 -->    src: url("./assets/NanumSquareNeoOTF-Lt.otf") format("opentype");
+<!--                 -->}
+<!--                 -->
+<!--                 -->@font-face {
+<!--                 -->    font-family: "Nanum Square Neo";
+<!--                 -->    font-weight: 400;
+<!--                 -->    src: url("./assets/NanumSquareNeoOTF-Rg.otf") format("opentype");
+<!--                 -->}
+<!--                 -->
+<!--                 -->@font-face {
+<!--                 -->    font-family: "Nanum Square Neo";
+<!--                 -->    font-weight: 700;
+<!--                 -->    src: url("./assets/NanumSquareNeoOTF-Bd.otf") format("opentype");
+<!--                 -->}
+<!--                 -->
+<!--                 -->@font-face {
+<!--                 -->    font-family: "Nanum Square Neo";
+<!--                 -->    font-weight: 800;
+<!--                 -->    src: url("./assets/NanumSquareNeoOTF-Eb.otf") format("opentype");
+<!--                 -->}
+<!--                 -->
+<!--                 -->@font-face {
+<!--                 -->    font-family: "Nanum Square Neo";
+<!--                 -->    font-weight: 900;
+<!--                 -->    src: url("./assets/NanumSquareNeoOTF-Hv.otf") format("opentype");
+<!--                 -->}
+<!--             --></pre>
+                    <p class="content__text">
+                        into a single at-rule:
+                    </p>
+                    <pre class="code content__code-block">
+<!--                 -->@font-face {
+<!--                 -->    font-family: "Nanum Square Neo";
+<!--                 -->    src: url("./assets/fonts/nanum_square_neo_variable.woff2") format(woff2) tech(variations);
+<!--                 -->}
+<!--             --></pre>
+                    <p>
+                        Using a variable font also provides access to a continuous range of weights, widths, and styles.
+                        Users are not limited to the few variants provided by the type designer.
+                    </p>
+                    <p>
+                        For instance, I cannot apply a font weight of 600 using just the static fonts from the example above.
+                        However, with a variable font, I can specify any value between 100 and 900, including intermediate values like 650.
+                        The <span class="content__keyword">axis of variation</span> describes the allowable range.
+                        These axes can be fine-tuned with the <code class="code content__code">font-variation-settings</code> property in CSS.
+                    </p>
+                </div>
+                <a class="link content__link" href="./">Return.</a>
+            </main>
+            <footer class="footer page__footer">
+                <p class="footer__copyright">Copyright © 2024 Dlwhddnr.</p>
+                <p class="footer__text">The typeface is <a class="link footer__link" href="https://campaign.naver.com/nanumsquare_neo">Nanum Square Neo</a>.</p>
+            </footer>
+        </div>
+    </body>
+</html>
